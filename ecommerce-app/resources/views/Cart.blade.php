@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+{{-- card --}}
     <div class="container-fluid py-5 vh-100">
         <div class="container py-5">
             @if (Cart::instance('cart')->count() > 0)
